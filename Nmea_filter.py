@@ -3,6 +3,10 @@
 import sys
 import os
 
+'''
+author:yuguang
+date:2017/6/9
+'''
 print sys.argv[0], 'is used to filter NMEA sentences from AP log file'
 print 'your file is ', sys.argv[1], 'let\'s read & filter it.'
 sourceFile = sys.argv[1]
